@@ -1,4 +1,4 @@
-# PlantCo_Sales_Performance_Report
+# PlantCo Sales Performance Report
 Interactive Power BI dashboard analyzing Plant Co sales using YTD vs PYTD time intelligence. Includes dynamic KPI switching (sales, gross profit, and quantity), waterfall growth analysis, product and country performance monitoring, and customer segmentation using scatter plot quadrant analysis.
 
 
