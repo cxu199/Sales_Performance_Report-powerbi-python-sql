@@ -1,3 +1,4 @@
+
 # 🌱 Plant Co Sales Performance Dashboard
 
 ![Portfolio](https://img.shields.io/badge/Project-Portfolio-important)
@@ -7,150 +8,172 @@
 ![Python](https://img.shields.io/badge/Python-Data%20Prep-blue?logo=python)
 ![Domain](https://img.shields.io/badge/Domain-Retail%20Sales-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-An end-to-end Power BI dashboard analysing Plant Co’s global sales performance using **YTD vs PYTD time intelligence**, **dynamic KPI switching**, and **multi-dimensional drill-down analysis**.
-
 ---
 
 # 📌 Dashboard Overview
 
-This project delivers a **business-focused analytics solution** across sales, profitability, customer performance, and product trends.
-
----
-
-## 🥇 Executive Summary Page
+An end-to-end Power BI dashboard analysing Plant Co’s global sales performance using **YTD vs PYTD time intelligence**, **dynamic KPI switching**, and **multi-dimensional drill-down analysis**.
 
 ![Dashboard](https://github.com/user-attachments/assets/faa960ec-9be6-403b-a3a5-5a36cf437ab7)
 
-### 🎯 Purpose  
-Provide a high-level overview of business performance and growth trends.
+# 🧭 Executive Summary
 
-### 📊 Key Elements  
-- YTD Sales vs PYTD Sales  
-- Gross Profit %  
-- YTD vs PYTD variance  
-- Top countries and accounts  
-- KPI-driven performance summary  
+The analysis of Plant Co’s global sales data (2022–2024 YTD) reveals **early signs of growth deceleration**, increasing **geographic concentration risk**, and **stable but slightly compressing margins**.
 
-### 🧠 Key Insight  
-2024 YTD performance shows a **slight decline vs prior year**, indicating early signs of slowdown.
+While overall performance remains strong, several structural risks and optimisation opportunities have been identified.
 
 ---
 
-## 🥈 KPI Performance Analysis
+# 📉 1. Growth Deceleration (YTD vs PYTD)
 
 ![KPI](https://github.com/cxu199/PlantCo_Sales_Performance_Report/blob/9c5ecfd4efad46b785d00f1be92853514fa75be7/KPI%20Cards.PNG)
 
-### 🎯 Purpose  
-Provide instant visibility into core business metrics.
+### 📊 Key Metrics
+- 2024 YTD Sales: **$3.57M**
+- 2023 YTD Sales: **$3.71M**
+- **YoY Change: -3.7%**
+- Profit YoY Change: **-5.3%**
 
-### 📊 Key KPIs  
-- YTD Sales  
-- PYTD Sales  
-- Gross Profit %  
-- Sales variance  
+### 🧠 Insight
+Growth has slowed in the current year, with profit declining faster than revenue.
 
-### 🧠 Business Insight  
-Executives can quickly assess whether performance is improving or declining compared to last year.
+### 💡 Interpretation
+- Indicates **early-stage demand softening or pricing pressure**
+- Margin decline suggests **cost inflation or discounting**
+
+### 🎯 Recommendation
+- Investigate **pricing strategy and cost structure**
+- Monitor monthly trend to confirm if decline is **structural vs seasonal**
 
 ---
 
-## 🥉 Country Performance Analysis
+# 🌍 2. Geographic Concentration Risk
 
 ![Country](https://github.com/cxu199/PlantCo_Sales_Performance_Report/blob/9c5ecfd4efad46b785d00f1be92853514fa75be7/Bottom%2010%20countries%20YTD%20vs%20PYTD.PNG)
 
-### 🎯 Purpose  
-Identify underperforming and high-impact markets.
+### 📊 Key Metrics
+- China contributes ~**33% of total revenue**
+- Next largest markets < **10% each**
 
-### 📊 Features  
-- Tree map of country performance  
-- Bottom-performing regions highlighted  
-- Dynamic metric switching  
+### 🧠 Insight
+Revenue is heavily concentrated in a single market.
 
-### 🧠 Key Insight  
-Revenue is highly concentrated, with **China as the dominant market**, indicating geographic dependency.
+### 💡 Interpretation
+- High dependency creates **systemic risk exposure**
+- Performance volatility likely tied to China market dynamics
 
----
-
-## 🧩 Growth Driver Analysis (Waterfall)
-
-![Waterfall](https://github.com/cxu199/PlantCo_Sales_Performance_Report/blob/9c5ecfd4efad46b785d00f1be92853514fa75be7/Waterfall%20month.PNG)
-
-### 🎯 Purpose  
-Explain the drivers behind YTD vs PYTD performance changes.
-
-### 📊 Drill-down Levels  
-- Month  
-- Country  
-- Product Type  
-- Product Name  
-
-### 🧠 Key Insight  
-Performance changes can be traced to specific **markets, time periods, and product categories**.
+### 🎯 Recommendation
+- Diversify revenue streams across emerging markets
+- Prioritise growth in **mid-tier countries**
 
 ---
 
-## 📦 Product Category Performance
+# 📦 3. Product Portfolio Performance
 
 ![Product](https://github.com/cxu199/PlantCo_Sales_Performance_Report/blob/9c5ecfd4efad46b785d00f1be92853514fa75be7/stacked%20bar%20and%20line%20chart%20for%20product%20type%20YTD%20vs%20PYTD.PNG)
 
-### 🎯 Purpose  
-Compare product category performance over time.
+### 📊 Key Metrics
+- Outdoor = largest category (~36% of revenue)
+- Indoor and Landscape closely follow
 
-### 📊 Features  
-- YTD vs PYTD comparison  
-- Category-level trend analysis  
+### 🧠 Insight
+Revenue is well distributed across product categories, but Outdoor leads.
 
-### 🧠 Key Insight  
-**Outdoor products dominate sales**, while margins remain stable across categories.
+### 💡 Interpretation
+- Balanced portfolio reduces product-level risk
+- Outdoor likely benefits from **higher demand or pricing power**
+
+### 🎯 Recommendation
+- Double down on high-performing categories
+- Identify **underperforming SKUs for optimisation**
 
 ---
 
-## 👥 Customer Segmentation Analysis
+# 📊 4. Margin Compression Trend
+
+### 📊 Margin Trend
+- 2022: **40.1%**
+- 2023: **39.6%**
+- 2024: **39.1%**
+
+### 🧠 Insight
+Margins are stable but gradually declining.
+
+### 💡 Interpretation
+- Potential drivers:
+  - Rising cost of goods
+  - Increased discounting
+  - Shift in product mix
+
+### 🎯 Recommendation
+- Conduct **margin analysis by product and customer**
+- Identify low-margin segments for improvement
+
+---
+
+# 👥 5. Customer Profitability Segmentation
+
 
 ![Scatter](https://github.com/cxu199/PlantCo_Sales_Performance_Report/blob/9c5ecfd4efad46b785d00f1be92853514fa75be7/Scatter%20plot%20for%20accounts%20GP%25%20vs%20Selected%20Measure.PNG)
 
-### 🎯 Purpose  
-Segment customers based on revenue and profitability.
+### 🧠 Insight
+Customer base can be segmented into four strategic groups:
 
-### 📊 Segmentation Logic  
-
-| Quadrant | Meaning |
+| Segment | Strategy |
 |--------|--------|
-| High Sales / High Margin | Strategic accounts |
-| High Sales / Low Margin | Margin improvement opportunity |
-| Low Sales / High Margin | Growth potential |
-| Low Sales / Low Margin | Low priority |
+| High Sales + High Margin | Retain & expand |
+| High Sales + Low Margin | Improve pricing |
+| Low Sales + High Margin | Growth opportunity |
+| Low Sales + Low Margin | Deprioritise |
 
-### 🧠 Key Insight  
-Customer segmentation enables **targeted account strategy and margin optimisation**.
+### 💡 Interpretation
+- Not all revenue is equally valuable
+- Profitability-driven strategy required
 
----
-
-# 📊 Key Analytical Concepts
-
-- **YTD vs PYTD** → Performance benchmarking  
-- **Variance Analysis** → Growth drivers identification  
-- **Customer Segmentation** → Strategic prioritisation  
-- **Drill-down Analysis** → Root cause exploration  
+### 🎯 Recommendation
+- Focus on **high-margin growth customers**
+- Improve pricing or cost for low-margin accounts
 
 ---
 
-# 📌 Key Insights
+# 📊 6. Root Cause Analysis Capability
 
-- 2024 YTD performance shows **early decline vs prior year**  
-- Revenue is **geographically concentrated**  
-- Outdoor products drive the majority of sales  
-- Profit margins remain stable but slightly declining  
+![Waterfall](https://github.com/cxu199/PlantCo_Sales_Performance_Report/blob/9c5ecfd4efad46b785d00f1be92853514fa75be7/Waterfall%20month.PNG)
+
+### 🧠 Insight
+Waterfall drill-down enables identification of performance drivers across:
+
+- Time (Month)
+- Geography (Country)
+- Product hierarchy
+
+### 💡 Interpretation
+- Allows transition from **what happened → why it happened**
+
+### 🎯 Recommendation
+- Use drill-down to identify:
+  - Declining markets
+  - Weak product categories
+  - Seasonal trends
 
 ---
 
-# 🎯 Business Recommendations
+# 🧠 Key Strategic Themes
 
-- Monitor **early-year performance trends**  
-- Reduce dependency on top markets (e.g. China)  
-- Focus on **high-margin growth opportunities**  
-- Improve profitability for high-revenue customers  
+1. Growth is slowing → requires close monitoring  
+2. Revenue concentration introduces risk  
+3. Margins are stable but trending downward  
+4. Customer and product optimisation opportunities exist  
+
+---
+
+# 🎯 Final Recommendation Summary
+
+- Monitor YTD performance monthly  
+- Reduce dependency on top market (China)  
+- Optimise pricing and cost structure  
+- Focus on high-margin customers and products  
+- Expand growth in underpenetrated markets  
 
 ---
 
