@@ -1,4 +1,4 @@
-# Recommended DAX measures
+# DAX measures
 
 These measures are aligned to the uploaded PBIX logic but rewritten in a cleaner portfolio style.
 
